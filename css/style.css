@@ -4,7 +4,9 @@ body {
    padding-top: 15px;
    font-size: 18px;
 }
-
+.wraper{
+   background: lightblue;
+}
 /*по тегу*/
 li{
    background-color: rgb(102, 190, 102);
