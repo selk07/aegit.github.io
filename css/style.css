@@ -1,0 +1,64 @@
+body {
+   width: 80%;
+   margin: 0 auto;
+   padding-top: 15px;
+   font-size: 18px;
+}
+
+/*по тегу*/
+li{
+   background-color: rgb(102, 190, 102);
+}
+/*по класу*/
+.list{
+   background-color: blue;
+}
+/*по id*/
+#id-list{
+   background-color: lawngreen;
+}
+/*по атрибуту*/
+li[value*="4"]{
+   background-color: coral;
+}
+/*вкладеність*/
+ul .selector{
+   background-color: #f315ca;
+}
+/*дочірні селектори*/
+ul > li{
+   color: red;
+   background-color: #15d2f3;
+}
+/*Послідовність селекторів*/
+h4 ~ p {
+   color: rgb(82, 10, 214);
+   background-color: #f55f5f;
+}
+/*групування класів*/
+.li-style, .p-style, .a-style{
+  font-size: 18px;
+  font-weight: 700;
+}
+/*id та class*/
+#id-li .h4{
+   background-color: darkgoldenrod;
+}
+/*послідовність селекторів 2*/
+div + p{
+background-color: rgb(207, 2, 2);
+}
+
+
+.weight{
+   font-size: 22px;
+   color: rgb(224, 226, 221);
+   background-color: #e53310;
+   float: right;
+}
+li{
+   margin-bottom: 15px;
+}
+.last{
+   margin-left: 20px;
+}
