@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>Lessons4</title>
+</head>
+<body>
+   <ol>
+      <li> Застосовується до тегів <b>li</b>, на усіх рівнях, <span class="weight">вага 1</span></li>
+      <li class="list"> "По класу". Застосовується до тегів з класом <b>list</b> <span class="weight">вага 10</span></li>
+      <li id="id-list"> "По id". Застосовується до тегів з ідентифікатором <b>id-list</b> <span class="weight">вага 100</span></li>
+      <li value="4">"По атрибуту". Застосовується до тегів <b>li</b>, з атрибутом <b>value="4"</b> <span class="weight">вага 10</span></li>
+      <li>"Вкладені селектори". Застосовується до всіх елементів з класом <b>selector</b>, вкладених в тег <b>ul</b> <span class="weight">вага 11</span>
+         <ul>
+            <li>1</li>
+            <li>2</li>
+            <li class="selector">3</li>
+         </ul>
+      </li>
+      <li>"Дочірні селектори". Застосовується до теів <b>li</b> вкладених тільки в тег <b>ul</b> на усіх рівнях <span class="weight">вага 2</span></li>
+      <li> <h4>"Послідовність селекторів".</h4> Застосовується до всіх тегів <b>р</b>, які стоять після <b>h4</b> <span class="weight">вага 2</span>
+         <p>Текст1</p>
+         <p>Текст2</p>
+       </li>
+       <li class="li-style">Групування класів. Застосовується для тегів з однаковими властивостями <span class="weight">вага 10</span>
+         <h3 class="a-style">Заголовок 3 рівня</h3>
+         <p class="p-style">Групування класів.</p>
+       </li>
+       <li id="id-li">Групування. Застосовується для класа <b>.h4</b>, який знаходиться в тегу з ідентифікатором <b>id-li</b> <span class="weight">вага 110</span>
+         <h4 class="h4">Заголовок 4 рівня</h4>
+       </li>
+   </ol>
+   <div> 
+      <p class="last">10. Застосовується для тега "p", який розміщується відразу після елемента "div" <span class="weight">вага 2</span></p>
+   </div>
+   <p>Параграф1</p>
+   <h3>Заголовок 3 рівня</h3>
+   <p>Параграф2</p>
+</body>
+</html>
