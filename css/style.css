@@ -7,6 +7,12 @@ body {
 .wraper{
    background: lightblue;
 }
+h1{
+   font-size: 30px;
+   text-align: center;
+   padding: 20px;
+   color: crimson;
+}
 /*по тегу*/
 li{
    background-color: rgb(102, 190, 102);
